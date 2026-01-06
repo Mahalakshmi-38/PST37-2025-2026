@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="largest among 3 numbers"/>
+        <attribute name="authors" value="MAHA LAKSHMI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 02:47:21 PM"/>
+        <attribute name="created" value="TUFIQSBMQUtTSE1JO0xBUFRPUC1ETzcyS09LSTsyMDI2LTAxLTA2OzAyOjQwOjM1IFBNOzMxNzA="/>
+        <attribute name="edited" value="TUFIQSBMQUtTSE1JO0xBUFRPUC1ETzcyS09LSTsyMDI2LTAxLTA2OzAyOjQ3OjIxIFBNOzE7MzI4MA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, num3" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="10"/>
+            <assign variable="num2" expression="12"/>
+            <assign variable="num3" expression="7"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <if expression="num2&lt;num3">
+                        <then>
+                            <output expression="num3" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </then>
+                <else>
+                    <if expression="num1&gt;num3">
+                        <then>
+                            <output expression="num2" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="num1" newline="True"/>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

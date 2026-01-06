@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="fahrenhiet to celsius"/>
+        <attribute name="authors" value="MAHA LAKSHMI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:59:36 AM"/>
+        <attribute name="created" value="TUFIQSBMQUtTSE1JO0xBUFRPUC1ETzcyS09LSTsyMDI2LTAxLTA2OzEwOjUxOjE4IEFNOzMxNTc="/>
+        <attribute name="edited" value="TUFIQSBMQUtTSE1JO0xBUFRPUC1ETzcyS09LSTsyMDI2LTAxLTA2OzEwOjU5OjM2IEFNOzE7MzI3Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="F, C" type="Integer" array="False" size=""/>
+            <assign variable="F" expression="120"/>
+            <assign variable="C" expression="(5*(F-32))/9"/>
+        </body>
+    </function>
+</flowgorithm>

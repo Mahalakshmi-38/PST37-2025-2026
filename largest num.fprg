@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="largest num"/>
+        <attribute name="authors" value="MAHA LAKSHMI"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:21:54 AM"/>
+        <attribute name="created" value="TUFIQSBMQUtTSE1JO0xBUFRPUC1ETzcyS09LSTsyMDI2LTAxLTA2OzEwOjEzOjA4IEFNOzMxNTQ="/>
+        <attribute name="edited" value="TUFIQSBMQUtTSE1JO0xBUFRPUC1ETzcyS09LSTsyMDI2LTAxLTA2OzEwOjIxOjU0IEFNOzE7MzI2Mg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2" type="Integer" array="False" size=""/>
+            <assign variable="num1" expression="10"/>
+            <assign variable="num2" expression="12"/>
+            <if expression="num1&gt;num2">
+                <then>
+                    <output expression="&quot;yes&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;no&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
